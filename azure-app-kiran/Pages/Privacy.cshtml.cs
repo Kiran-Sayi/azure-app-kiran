@@ -14,6 +14,7 @@ namespace azure_app_kiran.Pages
 
         public void OnGet()
         {
+            //throw new Exception("Testing insights");
         }
     }
 

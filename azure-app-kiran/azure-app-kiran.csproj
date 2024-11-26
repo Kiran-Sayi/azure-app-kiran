@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_kiran</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/852f1416-7457-446b-8f6b-f647826f6ab9/resourceGroups/az-course-rg/providers/microsoft.insights/components/azure-app-kiran</ApplicationInsightsResourceId>
+    <UserSecretsId>abbe1c00-b881-41b6-997b-48bdba7f7426</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>
